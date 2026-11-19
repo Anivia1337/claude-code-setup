@@ -39,6 +39,7 @@ Overview of everything installed. When a task fits one of these, use it instead 
 | **terminal** | Read and drive the Terminal panel tabs |
 | **scheduled-tasks** | Local scheduled tasks |
 | **mcp-registry** | Search for and suggest more connectors |
+| **Galaxus** (claude.ai connector) | Product search in the Galaxus/Digitec catalog (`search_products`: name, price incl. VAT, ratings, review pros/cons, link; filter by price). Use it for product and price questions instead of scraping the shop |
 | **ccd_*** | App tools: sessions, task list, panes, PR status, settings |
 
 There is also an **Artifact** tool that publishes HTML pages to claude.ai, private by default.

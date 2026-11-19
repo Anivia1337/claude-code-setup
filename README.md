@@ -41,6 +41,16 @@ Für `-Lsp` brauchst du zusätzlich:
 - **PHP:** `npm install -g intelephense`.
 - **Java:** Eclipse JDT LS als `jdtls` auf dem PATH und ein JDK.
 
+## Connectors (von Hand)
+
+Diese Connectors hängen am Claude-Konto, nicht an einer Datei, und lassen sich deshalb nicht per Skript übernehmen:
+
+- **Galaxus:** Produktsuche im Galaxus/Digitec-Sortiment mit Preis, Bewertungen und Link. So kommt er dazu:
+  1. In Claude (Web oder Desktop-App) **Einstellungen → Connectors** öffnen.
+  2. Unter **Connectors durchsuchen** nach „Galaxus“ suchen und **Verbinden** drücken.
+
+  Danach steht er in Claude Code und in der App zur Verfügung.
+
 ## Manuell / macOS / Linux
 
 Kopiere `enabledPlugins` und `extraKnownMarketplaces` aus [settings.json](settings.json) in deine `~/.claude/settings.json`. Hänge [CLAUDE.md](CLAUDE.md) an deine `~/.claude/CLAUDE.md` an. Danach:
