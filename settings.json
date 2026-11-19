@@ -1,0 +1,17 @@
+{
+  "enabledPlugins": {
+    "ponytail@ponytail": true,
+    "superpowers@superpowers-dev": true,
+    "example-skills@anthropic-agent-skills": true,
+    "academy-guide@anthropic-agent-skills": true,
+    "context7@claude-plugins-official": true,
+    "php-lsp@claude-plugins-official": true,
+    "jdtls-lsp@claude-plugins-official": true
+  },
+  "extraKnownMarketplaces": {
+    "ponytail": { "source": { "source": "github", "repo": "DietrichGebert/ponytail" } },
+    "superpowers-dev": { "source": { "source": "github", "repo": "obra/superpowers" } },
+    "anthropic-agent-skills": { "source": { "source": "github", "repo": "anthropics/skills" } },
+    "claude-plugins-official": { "source": { "source": "github", "repo": "anthropics/claude-plugins-official" } }
+  }
+}
